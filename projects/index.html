@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Edit page title -->
+    <title>Projects - CSE 440</title>
+ 
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,400italic,600' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+    <!-- This script dynamically loads CSS and JS files from the course base directory -->
+    <!-- Only edit if you want to change the paths to your JS/CSS sources -->
+    <script>
+      // Get the base path for the course web by extracting 'courses' + courseName + quarter
+      var fullPathArray = window.location.pathname.split('/');
+      var basePathArray = fullPathArray.slice(0,4);
+      var basePath = basePathArray.join('/');
+
+      // CSS files to load
+      var cssSources = [
+        '/site/css/bootstrap.min.css',
+        '/site/css/main.css',
+      ];
+
+      // Javscript files to load
+      var jsSources = [
+        '/site/js/jquery.min.js',
+        '/site/js/bootstrap.min.js',
+        '/site/js/nav-bar.js',
+        '/site/js/footer.js'
+      ];
+  
+      // Include the script that will load the CSS & Javscript files
+      document.write("<script src=\'" + basePath + "/site/js/load-sources.js\'><\/script>");
+      
+      function toggle_instructions() {
+		  var x = document.getElementById("instructions");
+		  var y = document.getElementById("card_instructions");
+		  if (x.style.display === "none") {
+		    x.style.display = "block";
+		    y.style.borderBottomLeftRadius = "0px";
+    		y.style.borderBottomRightRadius = "0px";
+		  } else {
+		    x.style.display = "none";
+		    y.style.borderBottomLeftRadius = "4px";
+    		y.style.borderBottomRightRadius = "4px";
+		  }
+		}
+    </script>
+
+  </head>
+  
+  <body>
+    <header class="site-header">
+    <!-- Javascript will load the navigation bar code here. -->
+    </header>
+
+    <div class="container">
+          
+      <!-- Begin page content -->
+    
+      <!-- Edit main page content -->
+      <h1>Project Theme</h1>
+      <p>
+        Theme: Thinking, Expressing, and Creating
+      </p>
+      <p>
+        <b>Creativity is the means by which people make sense of the world, connect with others, and express themselves.</b>
+      </p>
+      <p>
+        Whether through the stories we tell, the way we present ourselves, the art we create, or the crafts that we learn, creative acts help us create purpose, connecting, and understanding in a rapidly changing world where originality and authenticity is increasingly rare. Thus, the project theme for this quarter will be "Thinking, Expressing, and Creating." This can relate to broadly designing for users who are interested in creating, learning, expressing themselves, skill-sharing, or collaborating to enhance well being, improve skills, or create community.
+      </p>
+
+	
+	<div class="card">
+	  <ul class="list-group list-group-flush">
+	    <li class="list-group-item" id="card_instructions" style="background-color: #3dc483; color: #ffffff;" onclick="toggle_instructions()">Project instructions for teams</li>
+	    <li class="list-group-item" id="instructions" style="display: none;">
+	    	
+        <P>
+          Your team's goal is to choose a community of people and design a product that helps them through any aspect of thinking, making, or creating, broadly construed. Importantly, we encourage you to try to stretch yourselves and pick a user group that you all do not consider yourself a member of; this is so that you will not rely too much on your own experiences during user research as personal biases can potentially affect your research findings.
+        </P>
+        <p>Some broad directions: </p>
+        <ul>
+          <li>Creative accessibility</li>
+          <li>Self expression and identity</li>
+          <li>Cultural expression</li>
+          <li>Skill learning and sharing</li>
+          <li>Collaborative making</li>
+          <li>Tools for thought</li>
+          <li>Creative communities</li>
+        </ul>
+      
+        <p>
+          During this course, you will work with a team of students to narrow down on a community to focus on, learn about their needs, and design an intervention. In order to do this you will need to do secondary research to learn more about this community and conduct qualitative research to find first-hand opportunities and problems that you might address this quarter.
+        </p>
+        <p>
+          As part of your project, you will need to define what a specific community's needs are that your project can help support, and what activity you would like to design to help address this need. While your design may not be able to address this head-on, it may be useful to consider why this need has not yet been addressed for this community while conducting user research with your target group. Think about how the activity you chose is currently supported via technology (or not), what doesn't work about current ways of supporting it, and how your solution will do this better. Finally, be specific in the community and specific target users you select! The specificity of addressing a particular group of people allows you to deeply think about what makes the group unique and how you would best want to support them. So, dive in and see what you can come up with!
+        </p>
+      
+        <p>Critical Considerations: </p>
+        <ul>
+          <li>It is critical that you keep an open mind to learning about potential problems and challenges for your chosen community.</li>
+          <li>Be sure to choose a community that you are either not a direct part of or one in which you can remain neutral to their needs and stories.</li>
+          <li>You need to consider a local community that you have access to throughout this course. This will require you to reach out to and interview members of this community (for example, professional artists may be difficult to access, but student or local craft groups may be easier to find).</li>
+          <li>Get creative! Don't default to apps, explore alternative systems.</li>
+        </ul>
+	  	
+	    </li>
+	  </ul>
+	</div>	
+
+  <h1>Projects</h1>
+
+    <div class="col-md-3 col-sm-4 col-xs-6">
+      <div class="card_project">
+        <div class="card-img">
+          <img class="card-img-top" src="img/showcase.png">
+        </div>
+      <div class="card-body">
+        <h3 class="card-title">Showcase</h3>
+        <p class="card-text">
+          Helping Musicians Find Gigs Without Going Viral
+          <BR><BR>
+          Team: Serenity Hang, Henry Huang, Nathan Moreland, Raj Patel</p>
+
+        <div class="btn-group" role="group">
+          <a href="https://cse440.medium.com/beyond-the-algorithm-helping-musicians-find-gigs-without-going-viral-f3e8870a59a5">
+        <button type="button" class="btn btn-secondary btn-left">
+          User Research
+        </button>
+        </a>
+        <a href="https://cse440.medium.com/beyond-the-algorithm-helping-musicians-find-gigs-without-going-viral-bfcdfe6567b2">
+        <button type="button" class="btn btn-secondary btn-right">
+          Design
+        </button>
+        </a>
+      </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-3 col-sm-4 col-xs-6">
+      <div class="card_project">
+        <div class="card-img">
+          <img class="card-img-top" src="img/saywhat.png">
+        </div>
+      <div class="card-body">
+        <h3 class="card-title">SayWhat?</h3>
+        <p class="card-text">
+          Leaping Language Barriers<BR><BR>
+          Team: Brandon Chee, Shawn Park, Shey Gao, Nghi Xoi</p>
+
+        <div class="btn-group" role="group">
+          <a href="https://cse440.medium.com/saywhat-leaping-language-barriers-a6a512f6f693">
+        <button type="button" class="btn btn-secondary btn-left">
+          User Research
+        </button>
+        </a>
+        <a href="https://cse440.medium.com/saywhat-leaping-language-4c826be8eedf">
+        <button type="button" class="btn btn-secondary btn-right">
+          Design
+        </button>
+        </a>
+      </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="col-md-3 col-sm-4 col-xs-6">
+      <div class="card_project">
+        <div class="card-img">
+          <img class="card-img-top" src="img/dishcovery.png">
+        </div>
+      <div class="card-body">
+        <h3 class="card-title">DISHCovery</h3>
+        <p class="card-text">
+          Allergy No More: Find Food and Flavor Fun Again!<BR><BR>
+          Team: Karen Tran, Kevin Tran, Mya Baker, Dilini Nissanka, Rukhia Kassim</p>
+
+        <div class="btn-group" role="group">
+          <a href="https://cse440.medium.com/dishcovery-designing-a-safe-haven-for-dietary-restrictions-a968d4e50965">
+        <button type="button" class="btn btn-secondary btn-left">
+          User Research
+        </button>
+        </a>
+        <a href="https://cse440.medium.com/allergy-no-more-find-food-and-flavor-fun-again-4becd03dd4c0">
+        <button type="button" class="btn btn-secondary btn-right">
+          Design
+        </button>
+        </a>
+      </div>
+      </div>
+    </div>
+  </div>
+
+        <div class="col-md-3 col-sm-4 col-xs-6">
+        <div class="card_project">
+          <div class="card-img">
+            <img class="card-img-top" src="img/bizbooth.png">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">BizBooth</h3>
+            <p class="card-text">
+              Click, Create, Connect: A Fresh and Easy Take on Small Business Advertising<BR><BR>
+              Team: Jessica Do, Ken Oh, Hajin Shim, Tina Tran</p>
+            <div class="btn-group" role="group">
+              <a href="https://cse440.medium.com/bizbooth-a-new-way-to-redesign-f4c19e0f9b99">
+                <button type="button" class="btn btn-secondary btn-left">
+                  User Research
+                </button>
+              </a>
+              <a href="https://cse440.medium.com/click-create-connect-bizbooths-fresh-and-easy-take-on-small-business-advertising-b062bd7e9289">
+                <button type="button" class="btn btn-secondary btn-right">
+                  Design
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-3 col-sm-4 col-xs-6">
+        <div class="card_project">
+          <div class="card-img">
+            <img class="card-img-top" src="img/chefmate.png">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">ChefMate</h3>
+            <p class="card-text">
+              A UX Journey into Smart Grocery Shopping & Cooking Innovation with ChefMate<BR><BR>
+              Team: Joo Gyeong Kim, Kaylie Marie Nakaya, Saan Lily Popović, Violet Monserate</p>
+            <div class="btn-group" role="group">
+              <a href="https://cse440.medium.com/designing-for-families-a-ux-journey-into-smart-grocery-shopping-kitchen-innovation-with-chefmate-ac2f256cb74d">
+                <button type="button" class="btn btn-secondary btn-left">
+                  User Research
+                </button>
+              </a>
+              <a href="https://cse440.medium.com/designing-kitchens-for-families-a-ux-journey-into-smart-grocery-shopping-cooking-innovation-with-b8199884bcfd">
+                <button type="button" class="btn btn-secondary btn-right">
+                  Design
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-3 col-sm-4 col-xs-6">
+        <div class="card_project">
+          <div class="card-img">
+            <img class="card-img-top" src="img/chordconnect.png">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">ChordConnect</h3>
+            <p class="card-text">
+              From Solo to Ensemble<BR><BR>
+              Team: Michael Sinn, Karla Quiroz-Medrano, Kyle Eng, Sohrab Osmany, Radu Richardson</p>
+            <div class="btn-group" role="group">
+              <a href="https://cse440.medium.com/chordconnect-bringing-people-together-through-music-67e585e27678">
+                <button type="button" class="btn btn-secondary btn-left">
+                  User Research
+                </button>
+              </a>
+              <a href="https://cse440.medium.com/chordconnect-from-solo-to-ensemble-0f8b8b3d6347">
+                <button type="button" class="btn btn-secondary btn-right">
+                  Design
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-3 col-sm-4 col-xs-6">
+        <div class="card_project">
+          <div class="card-img">
+            <img class="card-img-top" src="img/designworld.png">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">DesignWorld</h3>
+            <p class="card-text">
+              From Inspiration to Collaboration<BR><BR>
+              Team: Zohar Le, Valentina Filizola, Carla Mae Acosta, Bethania Flores Torres</p>
+            <div class="btn-group" role="group">
+              <a href="https://cse440.medium.com/a-ux-user-case-the-process-of-creating-designwrld-2770ff974e6a">
+                <button type="button" class="btn btn-secondary btn-left">
+                  User Research
+                </button>
+              </a>
+              <a href="https://cse440.medium.com/from-inspiration-to-collaboration-welcome-to-design-wrld-db4db2430051">
+                <button type="button" class="btn btn-secondary btn-right">
+                  Design
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-3 col-sm-4 col-xs-6">
+        <div class="card_project">
+          <div class="card-img">
+            <img class="card-img-top" src="img/homestage.png">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">HomeStage</h3>
+            <p class="card-text">
+              Where Listings Come to Life and Houses Become Homes<BR><BR>
+              Team: Ayush Gupta, Swetha Puvvada, Atheesh Durairaj, Julie Chen</p>
+            <div class="btn-group" role="group">
+              <a href="https://cse440.medium.com/selling-homes-through-design-a-ui-ux-journey-into-real-estate-ceace257419e">
+                <button type="button" class="btn btn-secondary btn-left">
+                  User Research
+                </button>
+              </a>
+              <a href="https://medium.com/@cse440/homestage-where-listings-come-to-life-and-houses-become-homes-4f2aab9b05de">
+                <button type="button" class="btn btn-secondary btn-right">
+                  Design
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-3 col-sm-4 col-xs-6">
+        <div class="card_project">
+          <div class="card-img">
+            <img class="card-img-top" src="img/konnekt.png">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Konnekt4</h3>
+            <p class="card-text">
+              Building Connections, One Week at a Time<BR><BR>
+              Team: Amy Le, Bimal Brar, Brady Manske, & Miranda Nayak</p>
+            <div class="btn-group" role="group">
+              <a href="https://cse440.medium.com/crafters-connect-an-event-driven-app-for-crafters-to-connect-create-1d9eb42b287f">
+                <button type="button" class="btn btn-secondary btn-left">
+                  User Research
+                </button>
+              </a>
+              <a href="https://cse440.medium.com/konnekt4-building-connections-one-week-at-a-time-229e4884b3b2">
+                <button type="button" class="btn btn-secondary btn-right">
+                  Design
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-3 col-sm-4 col-xs-6">
+        <div class="card_project">
+          <div class="card-img">
+            <img class="card-img-top" src="img/mymill.png">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">MyMill</h3>
+            <p class="card-text">
+              Helping University of Washington Students Make Without Mystery<BR><BR>
+              Team: Aybala Turkarslan, Chaafen Raees, Salma Aly, Tashfia Sharmin, Zainab Ateeque</p>
+            <div class="btn-group" role="group">
+              <a href="https://cse440.medium.com/the-mill-makerspace-mobile-app-helping-uw-students-make-without-mystery-38bdb38ff19c">
+                <button type="button" class="btn btn-secondary btn-left">
+                  User Research
+                </button>
+              </a>
+              <a href="https://cse440.medium.com/mymill-helping-university-of-washington-students-make-without-mystery-d4a96ca06d22">
+                <button type="button" class="btn btn-secondary btn-right">
+                  Design
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-3 col-sm-4 col-xs-6">
+        <div class="card_project">
+          <div class="card-img">
+            <img class="card-img-top" src="img/recipez.png">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Recipez</h3>
+            <p class="card-text">
+              Easy Peasy RecipEZ<BR><BR>
+              Team: Carson Anderson, Felix Breuer, Nancy Qu, Timothy Zhong</p>
+            <div class="btn-group" role="group">
+              <a href="https://cse440.medium.com/fast-food-from-home-2b6f1095b94b">
+                <button type="button" class="btn btn-secondary btn-left">
+                  User Research
+                </button>
+              </a>
+              <a href="https://cse440.medium.com/easy-peasy-recipez-829ee49f722c">
+                <button type="button" class="btn btn-secondary btn-right">
+                  Design
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-3 col-sm-4 col-xs-6">
+        <div class="card_project">
+          <div class="card-img">
+            <img class="card-img-top" src="img/threadtogether.png">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">ThreadTogether</h3>
+            <p class="card-text">
+              Stitching Together a Community: How Thread Together Helps Students Share and Source Fabric Sustainably<BR><BR>
+              Team: Sophia Judish, Jordyn Manning, Nazanin Hassanzadeh, Jaden Jung</p>
+            <div class="btn-group" role="group">
+              <a href="https://cse440.medium.com/thread-together-407c723ad272">
+                <button type="button" class="btn btn-secondary btn-left">
+                  User Research
+                </button>
+              </a>
+              <a href="https://cse440.medium.com/stitching-together-a-community-how-thread-together-helps-students-share-and-source-fabric-360d888b9e5a">
+                <button type="button" class="btn btn-secondary btn-right">
+                  Design
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-3 col-sm-4 col-xs-6">
+        <div class="card_project">
+          <div class="card-img">
+            <img class="card-img-top" src="img/trektracker.png">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">TrekTracker</h3>
+            <p class="card-text">
+              Turning Steps to Success<BR><BR>
+              Team: Prachi Sangani, Tony Zhou, Akilesh Konda, Amay Bansal</p>
+            <div class="btn-group" role="group">
+              <a href="https://cse440.medium.com/trektracker-63d692a368c2">
+                <button type="button" class="btn btn-secondary btn-left">
+                  User Research
+                </button>
+              </a>
+              <a href="https://cse440.medium.com/trektracker-turning-steps-to-success-20e6dbf005af">
+                <button type="button" class="btn btn-secondary btn-right">
+                  Design
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+</div>
+
+
+   
+
+      <!-- End page content -->
+
+    </div>
+
+    <footer class="site-footer">
+    <!-- Javascript will load the footer code here. -->
+    </footer>
+
+  </body>
+
+</html>
