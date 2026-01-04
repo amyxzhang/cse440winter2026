@@ -76,12 +76,12 @@ h1, h2, h3, h4 {
  * Links
  */
 a {
-  color: #3dc483;
+  color: #673BB8;
   text-decoration: none; }
 a:visited {
-  color: #3dc483; }
+  color: #673BB8; }
 a:hover {
-  color: #3dc483;
+  color: #673BB8;
   text-decoration: underline; }
 
 /**
@@ -158,22 +158,22 @@ pre > code {
 }
 
 .navbar-inverse .navbar-brand {
-  background-color: #3dc483;
+  background-color: #673BB8;
   color: white; }
 
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-brand:focus {
-  background-color: #3dc483; }
+  background-color: #673BB8; }
 
 .navbar-inverse .navbar-nav > li > a {
-  color: #3dc483; }
+  color: #673BB8; }
 
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
   color: #b77a7a; }
 
 .navbar-right {
-  background-color: #3dc483; }
+  background-color: #673BB8; }
 
 .navbar-inverse .navbar-right > li > a,
 .navbar-inverse .navbar-right > li > a,
@@ -184,12 +184,12 @@ pre > code {
  }
  
  .navbar-toggle {
- 	background-color: #3dc483;
+ 	background-color: #673BB8;
  }
  
  .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
     color: #fff;
-    background-color: #3dc483;
+    background-color: #673BB8;
 }
  
  
@@ -242,7 +242,7 @@ pre > code {
 
 .nav-sidebar li.active a, .nav-sidebar li a:hover, .nav-sidebar li a:focus, .nav-sidebar a.nav-link.active {
     background-color: var(--teal);
-    color: #3dc483;
+    color: #673BB8;
     width: 100%;
     text-decoration: none;
 }
@@ -269,7 +269,7 @@ pre > code {
 }
 
 .nav-sidebar li.active a, .nav-sidebar li a:hover, .nav-sidebar li a:focus, .nav-sidebar a.nav-link.active {
-    background-color: #3dc483;
+    background-color: #673BB8;
     color: white;
     width: 100%;
     
@@ -318,7 +318,7 @@ pre > code {
 }
 
 .evenday {
-	background-color: #e5fbe5;
+	background-color: #D2CADD;
 }
 
 
@@ -439,14 +439,14 @@ pre > code {
 .btn-left:hover, .btn-left:focus, .btn-left:active, .btn-left.active, .btn-left:hover>a, .btn-right:hover>a,
 .btn-right:hover, .btn-right:focus, .btn-right:active, .btn-right.active {
 	color: #ffffff;
-    background-color: #3dc483;
+    background-color: #673BB8;
     border-color: #000000;
 }
 
 .btn-left>a:hover, .btn-left>a:focus, .btn-left>a:active, .btn-left>a.active,
 .btn-right>a:hover, .btn-right>a:focus, .btn-right>a:active, .btn-right>a.active {
     color: #fff;
-    background-color: #3dc483;
+    background-color: #673BB8;
     border-color: #000000; /*set the color you want here*/
    text-decoration: none;
 }
