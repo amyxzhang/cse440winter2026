@@ -180,11 +180,11 @@ pre > code {
 .navbar-inverse .navbar-right > li > a:hover,
 .navbar-inverse .navbar-right > li > a:focus
  {
-	color: white; 
+    color: white; 
  }
  
  .navbar-toggle {
- 	background-color: #673BB8;
+    background-color: #673BB8;
  }
  
  .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
@@ -255,7 +255,7 @@ pre > code {
     list-style-type: none;
     padding-left: 0;
     width: 100%;
-  	margin-left: 0px;
+    margin-left: 0px;
 
 }
 
@@ -314,11 +314,11 @@ pre > code {
 
 
 .oddday {
-	background-color: #f9f9f7;
+    background-color: #f9f9f7;
 }
 
 .evenday {
-	background-color: #D2CADD;
+    background-color: #D2CADD;
 }
 
 
@@ -372,7 +372,7 @@ pre > code {
 }
 
 .card > ul, .card_project > ul  {
-	margin-left: 0px;
+    margin-left: 0px;
 }
 
 
@@ -425,20 +425,20 @@ pre > code {
 }
 
 .card_project .btn-left {
-	background-color: #f9fbfe;
+    background-color: #f9fbfe;
 }
 
 .card_project .btn-right {
-	background-color: #e9e8fc;
+    background-color: #e9e8fc;
 }
 
 .card-text {
-	font-size: 14px;
+    font-size: 14px;
 }
 
 .btn-left:hover, .btn-left:focus, .btn-left:active, .btn-left.active, .btn-left:hover>a, .btn-right:hover>a,
 .btn-right:hover, .btn-right:focus, .btn-right:active, .btn-right.active {
-	color: #ffffff;
+    color: #ffffff;
     background-color: #673BB8;
     border-color: #000000;
 }
@@ -450,4 +450,3 @@ pre > code {
     border-color: #000000; /*set the color you want here*/
    text-decoration: none;
 }
-
